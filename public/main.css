@@ -1,0 +1,70 @@
+#body{
+    width: 100%;
+}
+header,footer{
+  flex: 0 0 auto;
+}
+#blocks{
+  width: 33%;
+  height: max-content;
+}
+.hyte{
+  height: fit-content;
+}
+.fnt{
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration-color: #000000;
+}
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.custom{
+  height: 32rem;
+  transition: 1s;
+}
+.one{
+  transition: width 2s ease;
+}
+
+.two{
+  transition: width 2s ease;
+}
+.custom:hover .one, 
+.custom:hover .two{
+  width: 40%;
+  transition-duration: 1.3s;
+  color: #D1E9F6;
+  -webkit-text-stroke: 0.5px black;
+}
+.custom{
+  height: 32rem;
+  transition: 1s;
+}
+.parent{
+  transition: 1s;
+}
+.parent:hover .one{
+  width: 40%;
+  transition-duration: 1.3s;
+}
+.one{
+  transition: width 2s ease;
+}
+
+.two{
+  transition: width 2s ease;
+}
+.custom:hover .one, 
+.custom:hover .two{
+  width: 40%;
+  transition-duration: 1.3s;
+  color: #D1E9F6;
+  -webkit-text-stroke: 0.5px black;
+}
+  
+

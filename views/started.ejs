@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Get Started</title>
+</head>
+<body>
+    <%- include('partials/header') %>
+        <div class="min-h-lvh bg-gradient-to-b from-[#14213d] to-slate-500">
+            <div class="flex flex-col h-full w-full   justify-center items-center">
+                <div class="h-full m-3 p-3 rounded-md ">
+                    <p class="text-4xl text-center text-white font-serif text-bold uppercase">Write your mind</p>
+                </div>
+            </div>
+            <div class="flex flex-col  border-2 rounded-lg w-full h-full justify-center items-center p-3 m-3">
+                    <label for="text"  class="bg-slate-300 min-w-fit  px-5 py-2 rounded-lg text-center uppercase">
+                        Tip: Start with a date.
+                    </label>
+                    <div class="flex justify-center items-center w-full mx-8 my-3 px-5 py-3 rounded-lg h-96">
+                        <input type="text" placeholder="Write here" class="w-full text-center h-full rounded-lg bg-slate-300">
+                    </div>
+            </div>
+        </div>
+    <%- include('partials/footer') %>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>dotBlog-contact</title>
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main class="flex flex-col min-h-fit w-full bg-yellow-200">
+        <!-- first column  -->
+        <div class="flex flex-row justify-between  h-[32rem] w-full bg-gradient-to-b from-[#14213d] to-blue-300 custom">
+            
+            <div class="flex justify-center items-center font-extrabold font-serif text-3xl w-1/4 rounded-r-full  one bg-gradient-to-br from-[#D1E9F6] to-[#1E2A5E]">
+                <p>Some History</p>
+            </div>
+
+            <div class="w-3/4 flex justify-center items-center font-light font-sans-serif text-xl px-5 text-wrap text-[#3C3D37] text-[#DAD4B5]"><p>Blogs originated in the late 1990s as personal online diaries where individuals shared thoughts and experiences. The term "weblog," coined by Jorn Barger in 1997, was later shortened to "blog" by Peter Merholz in 1999. As platforms like Blogger and WordPress emerged, blogging evolved into a powerful tool for communication, journalism, and marketing. Over time, blogs became a vital part of the internet, influencing culture, politics, and business globally.</p></div>
+        </div>
+
+            <!-- second column  -->
+        <div class="flex flex-row-reverse justify-between  h-[32rem] w-full bg-gradient-to-b from-blue-300 to-blue-100 custom">
+            <div class="flex justify-center items-center w-1/4 rounded-l-full  two bg-gradient-to-br from-[#CDC2A5] to-[#1E2A5E] font-extrabold font-serif text-3xl px-5 ">
+                <p>Blogging as Profession</p>
+            </div>
+
+            <div class="flex justify-center items-center w-3/4 font-light font-sans-serif text-xl px-5  text-[#3C3D37] text-wrap"><p>Becoming a full-time blogger has emerged as a viable profession, driven by the rise of digital media and content marketing. Successful bloggers generate income through ad revenue, affiliate marketing, sponsored posts, and product sales. Building a profitable blog requires consistent content creation, audience engagement, and niche expertise. With dedication, many bloggers have turned their passion for writing into a lucrative career, enjoying the flexibility and creative freedom that comes with it.</p></div>
+        </div>
+
+    <!-- third column  -->
+    <div class="flex flex-col justify-between  h-[32rem] w-full bg-gradient-to-b from-blue-100 to-[#708871]">
+        <div class=" flex justify-center items-center h-1/2 w-full bg-gradient-to-b from-blue-100 to-[#708871]">
+            <div class="flex justify-end items-start font-extrabold font-sans text-5xl text-transparent bg-clip-text   bg-gradient-to-t from-[#708871] to-[#1E2A5E]  ">
+                Feel Free to Contact us
+            <div class="h-2.5 w-2.5 rounded-full bg-gradient-to-tr animate-ping from-red-700 to-red-500 translate-x-1 -translate-y-1"></div>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between pl-8 items-center h-1/2 w-full bg-gradient-to-b from-[#708871] to-[#40534C]">
+            <ul class="list-disc list-inside text-xl text-[#FFF1DB] font-bold font-serif ">
+                <a href="https://x.com/home"><li class="hover:text-bold  hover:text-blue-400 active:text-blue-500 hover:text-2xl">Twitter</li></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en "><li class="translate-x-5 hover:text-bold  hover:text-blue-400 active:text-blue-500 active:text-blue-500 hover:text-2xl">Instagram</li></a>
+
+                <a href="https://in.linkedin.com/"><li class="translate-x-10 hover:text-bold  hover:text-blue-400 active:text-blue-500 hover:text-2xl">LinkedIn</li></a>
+            </ul>
+            <div class="w-1/2 min-h-fit p-4 pt-0 m-3">
+                <img src="images/conta.jpg" alt="" class="m-3 mt-0 scale-75 hover:scale-100 transition ease-in delay-500 rounded-xl shadow-xl">
+            </div>
+        </div>
+    </div>
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

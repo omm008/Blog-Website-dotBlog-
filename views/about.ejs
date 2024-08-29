@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+  <%- include('partials/header.ejs') %>
+  <div class="flex flex-col w-full">
+    <!-- first column -->
+    <div class="flex flex-row h-60 bg-red-300 justify-between items-center bg-gradient-to-t  from-[#84a98c]  to-[#14213d]">
+      <div class="flex justify-center items-center  w-1/3 h-full bg-[#14213d] rounded-r-xl ">
+        <p class="font-black text-4xl text-slate-200 font-sans-serif ">dotBlog.com </p>
+      </div>
+      <div class="flex justify-evenly items-center w-2/3 h-full ">
+        <div class=" flex justify-evenly items-center m-5 rounded-full h-48 w-48 bg-slate-800 ">
+          <img src="/images/ceo.jpg" alt="CEO" class="h-full w-full p-1 rounded-full ">
+        </div>
+        <p class="font-black text-4xl text-slate-200 font-serif ">- Jeffery Goodman </p>
+      </div>
+    </div>
+<!-- second columm -->
+    <div class="flex flex-row h-screen bg-gradient-to-b  from-[#84a98c] to-[#f6f4d2]-700 parent">
+      <div class="flex justify-center items-center w-3/4 h-full font-bold font-sans text-2xl text-slate-700 px-5 py-2">
+        <p>Jeffery Goodman began his journey as a tech enthusiast with a deep passion for storytelling. Growing up in a small town, writing and exploring the digital world became a creative outlet. Years of dedication led to the launch of dotBlog, a platform that blends insights on technology, personal growth, and creative writing. The blog quickly gained a loyal following for its relatable and engaging content. Now a successful author and blogger, Jeffery continues to inspire others through a unique mix of technical expertise and heartfelt narratives on dotBlog.
+        </p>
+      </div>
+      <div class=" flex justify-end items-center w-1/4 h-full bg-yellow-500 rounded-l-full bg-gradient-to-bl  from-green-400 to-[#14213d] one">
+        <div class="-rotate-90"><p class="text-3xl font-bold font-sans mx-6 text-slate-600">About the Author</p></div>
+      </div>
+    </div>
+<!-- fourth columm divided in rows-->
+    <!-- first row -->
+    <div class="flex flex-row h-64  ">
+      <div class="w-1/3 h-full bg-gradient-to-r from-[#26547c] to-[#283618]"></div>
+      <div class="w-2/3 h-full bg-gradient-to-l from-[#26547c] to-[#283618]"></div>
+    </div>
+
+    <div class="flex flex-row gap-0 justify-center h-96 ">
+
+      <div class="flex flex-col w-1/3 h-full bg-gradient-to-r from-[#a4b8c4] to-[#f0f4ef] text-slate-700 font-serif font-bold text-3xl">
+        <div class="flex justify-center items-center h-1/2 bg-gradient-to-b from-[#26547c] to-[#a4b8c4] rounded-tr-xl">
+          <h1>OUR VISION</h1>
+        </div>
+        <div class="flex h-1/2 justify-center items-start bg-gradient-to-b from-[#a4b8c4] to-[#335c67] rounded-br-full">
+          <h1></h1>
+        </div>
+      </div>
+
+      <!-- second rows -->
+      <div class="flex flex-col w-1/3 h-full bg-gradient-to-r from-[#f0f4ef] to-[#f6bd60]">
+        <div class="h-1/2 flex justify-center items-center p-5 font-bold font-serif text-xl text-green-800">Our vision at dotBlog is to inspire and empower readers through engaging content that seamlessly blends technology, personal growth, and creative storytelling.</div>
+        <div class="h-1/2 flex justify-center items-center p-5 font-bold font-sans-serif text-xl text-cyan-800">
+          Keep sharing your voice—every story and insight has the power to inspire and connect.
+        </div>
+      </div>
+
+
+      <div class="flex flex-col w-1/3 h-full bg-gradient-to-r from-[#f6bd60] to-[#f0f4ef] capitalize font-bold font-sans text-3xl text-slate-600">
+        <div class="h-1/3 bg-gradient-to-b from-[#26547c] to-[#a4b8c4] rounded-tl-full"></div>
+        <div class="flex justify-center items-center h-2/3 bg-gradient-to-b from-[#a4b8c4] to-[#26547c] rounded-bl-xl">
+          <h1>Enjoy writing</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-row h-60">
+      <div class="w-3/4 h-full bg-gradient-to-r from-[#4f518c] to-[#2c2a4a]"></div>
+      <div class="w-1/4 h-full bg-gradient-to-l from-[#4f518c] to-[#2c2a4a]"></div>
+    </div>
+    
+  </div>
+  <%- include('partials/footer.ejs') %>
+</body>
+</html>
